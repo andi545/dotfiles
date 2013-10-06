@@ -1,0 +1,14 @@
+set tabnumbers
+set hintchars=hjklasdfgyuiopqwertnmzxcvb
+set animations
+" Todo: does not work when space after f
+inoremap fd <bs>
+inoremap fds <bs><bs>
+inoremap fdsa <bs><bs><bs>
+nnoremap h gT
+nnoremap l gt
+nnoremap J H
+nnoremap K L
+nnoremap j 15j
+nnoremap k 15k
+set defsearch=duckduckgo
